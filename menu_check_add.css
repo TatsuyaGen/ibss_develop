@@ -1,0 +1,74 @@
+/*menu_check_add.phpのcssコード*/
+body{
+    color: #000000;
+    font-size: 2vw;
+    background:#eeeeee;
+}
+
+h1{
+    margin-left: 300px;
+    width: 1200px;
+    font-size:60px;
+    color: #0066FF;
+}
+
+div.cate{
+    margin-left: 100px;
+    width: 1200px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 50px;
+}
+
+div.scroll {
+    margin-left: 60px;
+    width: 1200px;
+    height: 500px;
+    overflow: scroll; 
+    overflow-x: auto;
+    overflow-y: auto;
+    -ms-overflow-style: none;    /* IE, Edge 対応 */
+    scrollbar-width: none;
+}  
+div.scroll::-webkit-scrollbar {  /* Chrome, Safari 対応 */
+    display:none;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 100px 30px;
+    table-layout: fixed;
+    font-size: 25px;
+}
+
+.submit_alignment{
+    width: 1500px;
+}
+
+input[type="submit"]{
+  margin-top: 50px;
+  width: 170px;
+  height:100px;
+  font-size: 60px;
+  text-decoration: none;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+input[type="submit"]:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+.add{
+  margin-left: 370px;
+  text-align: center;
+  background: #FFFF00;/*ボタン色*/
+}
+
+.add_back{
+  float: left;
+  background: #668AD8;/*ボタン色*/
+  color: #FFF; 
+}
